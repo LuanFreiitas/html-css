@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes internas e externas</title>
+    <link rel="shortcut icon" href="imagens/css.logo.jpg" type="image/x-icon">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+        
+        @font-face {
+            font-family:Fonte local ;
+            src: url(fonts/pacifico/Pacifico.ttf) format('truetype'); 
+        }
+
+        body{
+            font-size: 16px;
+        }
+
+        h2#padrao{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+
+        h2#google{
+            font-family: 'Indie Flower', cursive;
+            
+        }
+
+        h2#local{
+            font-family:'Fonte local', sans-serif;
+            font-weight: lighter;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Fontes em CSS</h1>
+    <h2 id="padrao">Podemos configurar fontes padrão do sistema</h2>
+    <h2 id="google">Podemos usar fontes do google(Google Fonts)</h2>
+    <h2 id="local">Ou até mesmo um arquivo local de fontes</h2>
+
+</body>
+</html>

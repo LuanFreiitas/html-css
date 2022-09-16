@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontas em CSS</title>
+    <link rel="shortcut icon" href="imagens/css.logo.jpg" type="image/x-icon">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1em;
+        }
+        /* Medidas Absolutas
+        cm, mm, in(polegadas), px, pt, pc
+        
+        Medidas Relativas
+        em(Altura do M), ex(Altura do X), rem(Fonte configurada ao body), vw(Tamanho da viewport, que é o tamanho da tela), %
+        
+        Fonte padrao 16px geralmente = 1em
+        */
+        
+        h1, h2{
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        h3{
+            font: italic bolder 1.5em arial;
+            /*Pode-se utilizar uma ShortHand, ela auxilia a simplificação do codigo e substitui
+            
+            font-family 'nessa situação aqui seria arial'
+            font-weight 'nessa situalçao seria bolder'
+            font-size 'nessa situação seria 1.5em'
+            font-style 'nessa situação seria italic'
+            
+            A ordem correta é
+            font-style--> font-weight--> font-size--> font-family ;
+            */
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro possimus veritatis optio, reiciendis veniam maxime amet quisquam ex praesentium suscipit odit natus doloribus hic distinctio provident, voluptatum cum quaerat beatae!</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet aliquid vitae officia eius expedita nobis dolores necessitatibus pariatur! Illo commodi sequi minus corrupti accusantium pariatur molestias maxime assumenda itaque nobis.</p>
+
+    <h2>Subtítulo do exercício</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, nam veniam? Quam eligendi itaque autem, excepturi iure neque cumque maxime fugiat animi atque dolorem aut vitae, molestiae obcaecati, beatae sunt.</p>
+        
+    <h3>Subtítulo do exercício 2</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab corrupti quos minima dolorum quia reprehenderit ut, accusantium aliquid, neque cum iste itaque vero suscipit hic incidunt maiores voluptate? Aliquam, blanditiis.</p>
+
+</body>
+</html>
